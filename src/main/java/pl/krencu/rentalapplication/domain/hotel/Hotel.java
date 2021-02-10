@@ -3,11 +3,11 @@ package pl.krencu.rentalapplication.domain.hotel;
 public class Hotel {
 
     private final String name;
-    private final BuildingAddress buildingAddress;
+    private final Address address;
 
-    public Hotel(String name, BuildingAddress buildingAddress) {
+    Hotel(String name, Address address) {
 
         this.name = name;
-        this.buildingAddress = buildingAddress;
+        this.address = address;
     }
 }

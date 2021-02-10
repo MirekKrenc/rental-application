@@ -16,7 +16,7 @@ public class HotelFactory {
         this.city = city;
         this.country = country;
 
-        BuildingAddress buildingAddress = new BuildingAddress(street, buildingNumber, postalCode, city, country);
-        return new Hotel(name, buildingAddress);
+        Address address = new Address(street, buildingNumber, postalCode, city, country);
+        return new Hotel(name, address);
     }
 }
