@@ -7,9 +7,9 @@ import java.util.Map;
 
 public class HotelRoomApplicationService {
 
-    public void add(String hotelId, int number, String description, Map<String, Double> roomsDefinition) {
+    public void add(String hotelId, int number, String description, Map<String, Double> spacesDefinition) {
 
-        HotelRoom hotelRoom = new HotelRoomFactory().create(hotelId, number, description, roomsDefinition);
+        HotelRoom hotelRoom = new HotelRoomFactory().create(hotelId, number, description, spacesDefinition);
     }
 
 }

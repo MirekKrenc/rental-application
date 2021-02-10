@@ -1,10 +1,10 @@
 package pl.krencu.rentalapplication.domain.hotelroom;
 
-class Room {
+class SpaceInRoom {
     private final String name;
     private final SquareMeter squareMeter;
 
-    Room(String name, SquareMeter squareMeter) {
+    SpaceInRoom(String name, SquareMeter squareMeter) {
 
         this.name = name;
         this.squareMeter = squareMeter;
